@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/tk-acklio/repo-utils:main
+      credentials:
+        username: tk-acklio
+        password: "${{ secrets.PRIV_DOCKER_TOKEN }}"
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
