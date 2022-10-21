@@ -17,6 +17,8 @@ jobs:
           fetch-depth: 0
       - name: Check the
         run: find
+      - name: Check thqsde
+        run: git init
       - name: Check the sid syntaxqzd
         run: |
           git --version
