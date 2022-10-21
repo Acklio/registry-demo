@@ -14,7 +14,13 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
       - name: Check the sid syntaxqzd
-        run: git --version
+        run: |
+          git --version
+          git config user.name "Registry pipeline"
+          git config user.email "<>"
+          git status
+          git tag
+          git describe
       - name: Check the sid syntaxqzda
         run: git status
       - name: Check the sid syntax
