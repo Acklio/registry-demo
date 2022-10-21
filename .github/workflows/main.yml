@@ -25,3 +25,19 @@ jobs:
         run: make -f /opt/acklio/Makefile syntaxcheck
       - name: Check the sid budget
         run: make -f /opt/acklio/Makefile changed_org_usage
+  sid-generation:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tk-acklio/repo-utils:main
+      credentials:
+        username: tk-acklio
+        password: "${{ secrets.PRIV_DOCKER_TOKEN }}"
+    env:
+      TARGET_BRANCH_NAME: "main"
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Check the sid budget
+        run: make -f /opt/acklio/Makefile sids_and_push
