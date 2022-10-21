@@ -27,6 +27,7 @@ jobs:
         run: make -f /opt/acklio/Makefile changed_org_usage
   sid-generation:
     runs-on: ubuntu-latest
+    needs: sid-testing
     container:
       image: ghcr.io/tk-acklio/repo-utils:main
       credentials:
@@ -35,9 +36,11 @@ jobs:
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
+      - name: Check out env
+        run: env
       - name: Check out the repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Check the sid budget
+      - name: Generate Sids
         run: make -f /opt/acklio/Makefile sids_and_push
