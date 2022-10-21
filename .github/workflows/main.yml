@@ -1,6 +1,10 @@
 name: Validate yangs and generate sids
 
-on: [push]
+on:
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - main
 
 jobs:
   sid-testing:
@@ -15,20 +19,5 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      #- name: Check the
-      #  run: find
-      #- name: Check thqsde
-      #  run: git init
-      #- name: Check the sid syntaxqzd
-      #  run: |
-      #    git --version
-      #    git config user.name "Registry pipeline"
-      #    git config user.email "< >"
-      #    git config --global --add safe.directory "$GITHUB_WORKSPACE"
-      #    git status
-      #    git tag
-      #    git describe
-      #- name: Check the sid syntaxqzda
-      #  run: git status
       - name: Check the sid syntax
         run: make -f /opt/acklio/Makefile syntaxcheck
