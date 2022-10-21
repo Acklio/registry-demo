@@ -14,7 +14,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
       - name: Check the sid syntaxqzd
-        run: git --vesion
+        run: git --version
       - name: Check the sid syntaxqzda
         run: git status
       - name: Check the sid syntax
