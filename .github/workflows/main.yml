@@ -14,6 +14,8 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
       - name: Check the sid syntaxqzd
-        run: find
+        run: git --vesion
+      - name: Check the sid syntaxqzda
+        run: git status
       - name: Check the sid syntax
         run: make -f /opt/acklio/Makefile syntaxcheck
