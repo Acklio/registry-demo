@@ -1,0 +1,45 @@
+module local2 {
+  yang-version 1.1;
+  namespace "urn:local2";
+  prefix l2vpn-svc;
+
+  import local {
+    prefix loc;
+  }
+
+  organization
+    "IETF L2SM Working Group.";
+  contact
+    "WG Web:   <https://datatracker.ietf.org/wg/l2sm/>
+     WG List:  <mailto:l2sm@ietf.org>
+     Editor:   Giuseppe Fioccola
+               <mailto:giuseppe.fioccola@tim.it>";
+  description
+    "blqsdqdqsmlk";
+
+  revision 2018-10-09 {
+    description
+      "Initial revision.";
+    reference
+      "RFC 8466: A YANG Data Model for Layer 2 Virtual Private
+       Network (L2VPN) Service Delivery";
+  }
+
+  feature carrierscarrier {
+    description
+      "Enables the support of carriers' carriers (CsC).";
+  }
+
+  container testcont {
+    list testlist {
+      key "test-id";
+      leaf test-id {
+        type loc:localtesttype;
+        description
+          "Defines a thing.";
+      }
+      description
+        "Container for things.";
+    }
+  }
+}

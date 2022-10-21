@@ -1,0 +1,37 @@
+{
+  "assignment-ranges": [
+    {
+      "entry-point": 1804000,
+      "size": 2000
+    }
+  ],
+  "module-name": "local2",
+  "module-revision": "2018-10-09",
+  "items": [
+    {
+      "namespace": "module",
+      "identifier": "local2",
+      "sid": 1804000
+    },
+    {
+      "namespace": "feature",
+      "identifier": "carrierscarrier",
+      "sid": 1804001
+    },
+    {
+      "namespace": "data",
+      "identifier": "/local2:testcont",
+      "sid": 1804002
+    },
+    {
+      "namespace": "data",
+      "identifier": "/local2:testcont/testlist",
+      "sid": 1804003
+    },
+    {
+      "namespace": "data",
+      "identifier": "/local2:testcont/testlist/test-id",
+      "sid": 1804004
+    }
+  ]
+}

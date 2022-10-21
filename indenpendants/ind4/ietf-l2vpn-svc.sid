@@ -1,0 +1,2642 @@
+{
+  "assignment-ranges": [
+    {
+      "entry-point": 1802556,
+      "size": 1444
+    }
+  ],
+  "module-name": "ietf-l2vpn-svc",
+  "module-revision": "2018-10-09",
+  "items": [
+    {
+      "namespace": "module",
+      "identifier": "ietf-l2vpn-svc",
+      "sid": 1802556
+    },
+    {
+      "namespace": "identity",
+      "identifier": "address-family",
+      "sid": 1802557
+    },
+    {
+      "namespace": "identity",
+      "identifier": "all2one-bundling",
+      "sid": 1802558
+    },
+    {
+      "namespace": "identity",
+      "identifier": "any-to-any",
+      "sid": 1802559
+    },
+    {
+      "namespace": "identity",
+      "identifier": "any-to-any-role",
+      "sid": 1802560
+    },
+    {
+      "namespace": "identity",
+      "identifier": "asm-tree-type",
+      "sid": 1802561
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bearer-diverse",
+      "sid": 1802562
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bgp",
+      "sid": 1802563
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bgp-mode",
+      "sid": 1802564
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bgp-vpls",
+      "sid": 1802565
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bidir-tree-type",
+      "sid": 1802566
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bidirectional",
+      "sid": 1802567
+    },
+    {
+      "namespace": "identity",
+      "identifier": "broadcast",
+      "sid": 1802568
+    },
+    {
+      "namespace": "identity",
+      "identifier": "broadcast-traffic",
+      "sid": 1802569
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bum-type",
+      "sid": 1802570
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bundling-type",
+      "sid": 1802571
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-direction",
+      "sid": 1802572
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-per-cos",
+      "sid": 1802573
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-per-port",
+      "sid": 1802574
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-per-site",
+      "sid": 1802575
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-per-svc",
+      "sid": 1802576
+    },
+    {
+      "namespace": "identity",
+      "identifier": "bw-type",
+      "sid": 1802577
+    },
+    {
+      "namespace": "identity",
+      "identifier": "c-s-vlan",
+      "sid": 1802578
+    },
+    {
+      "namespace": "identity",
+      "identifier": "c-vlan",
+      "sid": 1802579
+    },
+    {
+      "namespace": "identity",
+      "identifier": "carrierscarrier-type",
+      "sid": 1802580
+    },
+    {
+      "namespace": "identity",
+      "identifier": "co-managed",
+      "sid": 1802581
+    },
+    {
+      "namespace": "identity",
+      "identifier": "color-id",
+      "sid": 1802582
+    },
+    {
+      "namespace": "identity",
+      "identifier": "color-id-cvlan",
+      "sid": 1802583
+    },
+    {
+      "namespace": "identity",
+      "identifier": "color-type",
+      "sid": 1802584
+    },
+    {
+      "namespace": "identity",
+      "identifier": "control-plane",
+      "sid": 1802585
+    },
+    {
+      "namespace": "identity",
+      "identifier": "cos-id",
+      "sid": 1802586
+    },
+    {
+      "namespace": "identity",
+      "identifier": "cos-id-dscp",
+      "sid": 1802587
+    },
+    {
+      "namespace": "identity",
+      "identifier": "cos-id-pcp",
+      "sid": 1802588
+    },
+    {
+      "namespace": "identity",
+      "identifier": "cross-connect-ccm",
+      "sid": 1802589
+    },
+    {
+      "namespace": "identity",
+      "identifier": "customer-application",
+      "sid": 1802590
+    },
+    {
+      "namespace": "identity",
+      "identifier": "customer-managed",
+      "sid": 1802591
+    },
+    {
+      "namespace": "identity",
+      "identifier": "data-plane",
+      "sid": 1802592
+    },
+    {
+      "namespace": "identity",
+      "identifier": "database",
+      "sid": 1802593
+    },
+    {
+      "namespace": "identity",
+      "identifier": "delay",
+      "sid": 1802594
+    },
+    {
+      "namespace": "identity",
+      "identifier": "discard",
+      "sid": 1802595
+    },
+    {
+      "namespace": "identity",
+      "identifier": "dot1q",
+      "sid": 1802596
+    },
+    {
+      "namespace": "identity",
+      "identifier": "doubled-side-provision",
+      "sid": 1802597
+    },
+    {
+      "namespace": "identity",
+      "identifier": "drop",
+      "sid": 1802598
+    },
+    {
+      "namespace": "identity",
+      "identifier": "dynamic-mapping",
+      "sid": 1802599
+    },
+    {
+      "namespace": "identity",
+      "identifier": "embb",
+      "sid": 1802600
+    },
+    {
+      "namespace": "identity",
+      "identifier": "encapsulation-type",
+      "sid": 1802601
+    },
+    {
+      "namespace": "identity",
+      "identifier": "eth-inf-type",
+      "sid": 1802602
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ethernet",
+      "sid": 1802603
+    },
+    {
+      "namespace": "identity",
+      "identifier": "fault-alarm-defect-type",
+      "sid": 1802604
+    },
+    {
+      "namespace": "identity",
+      "identifier": "file-transfer",
+      "sid": 1802605
+    },
+    {
+      "namespace": "identity",
+      "identifier": "flood",
+      "sid": 1802606
+    },
+    {
+      "namespace": "identity",
+      "identifier": "frame-delivery-mode",
+      "sid": 1802607
+    },
+    {
+      "namespace": "identity",
+      "identifier": "games",
+      "sid": 1802608
+    },
+    {
+      "namespace": "identity",
+      "identifier": "green",
+      "sid": 1802609
+    },
+    {
+      "namespace": "identity",
+      "identifier": "hub-role",
+      "sid": 1802610
+    },
+    {
+      "namespace": "identity",
+      "identifier": "hub-spoke",
+      "sid": 1802611
+    },
+    {
+      "namespace": "identity",
+      "identifier": "hub-spoke-disjoint",
+      "sid": 1802612
+    },
+    {
+      "namespace": "identity",
+      "identifier": "input-bw",
+      "sid": 1802613
+    },
+    {
+      "namespace": "identity",
+      "identifier": "invalid-ccm",
+      "sid": 1802614
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ipv4",
+      "sid": 1802615
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ipv6",
+      "sid": 1802616
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-active",
+      "sid": 1802617
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-fast",
+      "sid": 1802618
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-mode",
+      "sid": 1802619
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-off",
+      "sid": 1802620
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-on",
+      "sid": 1802621
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-passive",
+      "sid": 1802622
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-slow",
+      "sid": 1802623
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-speed",
+      "sid": 1802624
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lacp-state",
+      "sid": 1802625
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lag",
+      "sid": 1802626
+    },
+    {
+      "namespace": "identity",
+      "identifier": "lan",
+      "sid": 1802627
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ldp",
+      "sid": 1802628
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ldp-l2tp-vpls",
+      "sid": 1802629
+    },
+    {
+      "namespace": "identity",
+      "identifier": "linecard-diverse",
+      "sid": 1802630
+    },
+    {
+      "namespace": "identity",
+      "identifier": "loop-prevention-type",
+      "sid": 1802631
+    },
+    {
+      "namespace": "identity",
+      "identifier": "loss",
+      "sid": 1802632
+    },
+    {
+      "namespace": "identity",
+      "identifier": "mac-action",
+      "sid": 1802633
+    },
+    {
+      "namespace": "identity",
+      "identifier": "mac-learning-mode",
+      "sid": 1802634
+    },
+    {
+      "namespace": "identity",
+      "identifier": "mail",
+      "sid": 1802635
+    },
+    {
+      "namespace": "identity",
+      "identifier": "management",
+      "sid": 1802636
+    },
+    {
+      "namespace": "identity",
+      "identifier": "mmtc",
+      "sid": 1802637
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multi-svc-bundling",
+      "sid": 1802638
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multicast",
+      "sid": 1802639
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multicast-gp-address-mapping",
+      "sid": 1802640
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multicast-traffic",
+      "sid": 1802641
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multicast-tree-type",
+      "sid": 1802642
+    },
+    {
+      "namespace": "identity",
+      "identifier": "multipoint",
+      "sid": 1802643
+    },
+    {
+      "namespace": "identity",
+      "identifier": "network-management",
+      "sid": 1802644
+    },
+    {
+      "namespace": "identity",
+      "identifier": "one-rate-two-color",
+      "sid": 1802645
+    },
+    {
+      "namespace": "identity",
+      "identifier": "one2one-bundling",
+      "sid": 1802646
+    },
+    {
+      "namespace": "identity",
+      "identifier": "output-bw",
+      "sid": 1802647
+    },
+    {
+      "namespace": "identity",
+      "identifier": "p2p",
+      "sid": 1802648
+    },
+    {
+      "namespace": "identity",
+      "identifier": "pbb-evpn",
+      "sid": 1802649
+    },
+    {
+      "namespace": "identity",
+      "identifier": "pe-diverse",
+      "sid": 1802650
+    },
+    {
+      "namespace": "identity",
+      "identifier": "placement-diversity",
+      "sid": 1802651
+    },
+    {
+      "namespace": "identity",
+      "identifier": "pm-type",
+      "sid": 1802652
+    },
+    {
+      "namespace": "identity",
+      "identifier": "point-to-point",
+      "sid": 1802653
+    },
+    {
+      "namespace": "identity",
+      "identifier": "policing",
+      "sid": 1802654
+    },
+    {
+      "namespace": "identity",
+      "identifier": "pop-diverse",
+      "sid": 1802655
+    },
+    {
+      "namespace": "identity",
+      "identifier": "priority-tagged",
+      "sid": 1802656
+    },
+    {
+      "namespace": "identity",
+      "identifier": "provider-managed",
+      "sid": 1802657
+    },
+    {
+      "namespace": "identity",
+      "identifier": "provision-model",
+      "sid": 1802658
+    },
+    {
+      "namespace": "identity",
+      "identifier": "pwe3",
+      "sid": 1802659
+    },
+    {
+      "namespace": "identity",
+      "identifier": "qinany",
+      "sid": 1802660
+    },
+    {
+      "namespace": "identity",
+      "identifier": "qinq",
+      "sid": 1802661
+    },
+    {
+      "namespace": "identity",
+      "identifier": "qos-profile-direction",
+      "sid": 1802662
+    },
+    {
+      "namespace": "identity",
+      "identifier": "red",
+      "sid": 1802663
+    },
+    {
+      "namespace": "identity",
+      "identifier": "remote-invalid-ccm",
+      "sid": 1802664
+    },
+    {
+      "namespace": "identity",
+      "identifier": "remote-mac-error",
+      "sid": 1802665
+    },
+    {
+      "namespace": "identity",
+      "identifier": "remote-rdi",
+      "sid": 1802666
+    },
+    {
+      "namespace": "identity",
+      "identifier": "s-vlan",
+      "sid": 1802667
+    },
+    {
+      "namespace": "identity",
+      "identifier": "same-bearer",
+      "sid": 1802668
+    },
+    {
+      "namespace": "identity",
+      "identifier": "same-pe",
+      "sid": 1802669
+    },
+    {
+      "namespace": "identity",
+      "identifier": "service-type",
+      "sid": 1802670
+    },
+    {
+      "namespace": "identity",
+      "identifier": "shut",
+      "sid": 1802671
+    },
+    {
+      "namespace": "identity",
+      "identifier": "single-side-provision",
+      "sid": 1802672
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-network-access-type",
+      "sid": 1802673
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-role",
+      "sid": 1802674
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-to-wan",
+      "sid": 1802675
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-vpn-flavor",
+      "sid": 1802676
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-vpn-flavor-multi",
+      "sid": 1802677
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-vpn-flavor-nni",
+      "sid": 1802678
+    },
+    {
+      "namespace": "identity",
+      "identifier": "site-vpn-flavor-single",
+      "sid": 1802679
+    },
+    {
+      "namespace": "identity",
+      "identifier": "social",
+      "sid": 1802680
+    },
+    {
+      "namespace": "identity",
+      "identifier": "spoke-role",
+      "sid": 1802681
+    },
+    {
+      "namespace": "identity",
+      "identifier": "ssm-tree-type",
+      "sid": 1802682
+    },
+    {
+      "namespace": "identity",
+      "identifier": "static-mapping",
+      "sid": 1802683
+    },
+    {
+      "namespace": "identity",
+      "identifier": "static-mode",
+      "sid": 1802684
+    },
+    {
+      "namespace": "identity",
+      "identifier": "tag-type",
+      "sid": 1802685
+    },
+    {
+      "namespace": "identity",
+      "identifier": "tagged",
+      "sid": 1802686
+    },
+    {
+      "namespace": "identity",
+      "identifier": "tagged-inf-type",
+      "sid": 1802687
+    },
+    {
+      "namespace": "identity",
+      "identifier": "tf-type",
+      "sid": 1802688
+    },
+    {
+      "namespace": "identity",
+      "identifier": "trap",
+      "sid": 1802689
+    },
+    {
+      "namespace": "identity",
+      "identifier": "two-rate-three-color",
+      "sid": 1802690
+    },
+    {
+      "namespace": "identity",
+      "identifier": "unconditional",
+      "sid": 1802691
+    },
+    {
+      "namespace": "identity",
+      "identifier": "unicast",
+      "sid": 1802692
+    },
+    {
+      "namespace": "identity",
+      "identifier": "unknown-discard",
+      "sid": 1802693
+    },
+    {
+      "namespace": "identity",
+      "identifier": "unknown-unicast-traffic",
+      "sid": 1802694
+    },
+    {
+      "namespace": "identity",
+      "identifier": "untagged",
+      "sid": 1802695
+    },
+    {
+      "namespace": "identity",
+      "identifier": "urllc",
+      "sid": 1802696
+    },
+    {
+      "namespace": "identity",
+      "identifier": "video",
+      "sid": 1802697
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vlan",
+      "sid": 1802698
+    },
+    {
+      "namespace": "identity",
+      "identifier": "voice",
+      "sid": 1802699
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vpn-policy-filter-type",
+      "sid": 1802700
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vpn-topology",
+      "sid": 1802701
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vpws",
+      "sid": 1802702
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vpws-evpn",
+      "sid": 1802703
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vxlan",
+      "sid": 1802704
+    },
+    {
+      "namespace": "identity",
+      "identifier": "vxlan-peer-mode",
+      "sid": 1802705
+    },
+    {
+      "namespace": "identity",
+      "identifier": "wan-to-site",
+      "sid": 1802706
+    },
+    {
+      "namespace": "identity",
+      "identifier": "warning",
+      "sid": 1802707
+    },
+    {
+      "namespace": "identity",
+      "identifier": "web",
+      "sid": 1802708
+    },
+    {
+      "namespace": "identity",
+      "identifier": "yellow",
+      "sid": 1802709
+    },
+    {
+      "namespace": "feature",
+      "identifier": "acl",
+      "sid": 1802710
+    },
+    {
+      "namespace": "feature",
+      "identifier": "always-on",
+      "sid": 1802711
+    },
+    {
+      "namespace": "feature",
+      "identifier": "bearer-reference",
+      "sid": 1802712
+    },
+    {
+      "namespace": "feature",
+      "identifier": "bfd",
+      "sid": 1802713
+    },
+    {
+      "namespace": "feature",
+      "identifier": "bum",
+      "sid": 1802714
+    },
+    {
+      "namespace": "feature",
+      "identifier": "carrierscarrier",
+      "sid": 1802715
+    },
+    {
+      "namespace": "feature",
+      "identifier": "cfm",
+      "sid": 1802716
+    },
+    {
+      "namespace": "feature",
+      "identifier": "cloud-access",
+      "sid": 1802717
+    },
+    {
+      "namespace": "feature",
+      "identifier": "dot1q",
+      "sid": 1802718
+    },
+    {
+      "namespace": "feature",
+      "identifier": "encryption",
+      "sid": 1802719
+    },
+    {
+      "namespace": "feature",
+      "identifier": "ethernet-oam",
+      "sid": 1802720
+    },
+    {
+      "namespace": "feature",
+      "identifier": "extranet-vpn",
+      "sid": 1802721
+    },
+    {
+      "namespace": "feature",
+      "identifier": "input-bw",
+      "sid": 1802722
+    },
+    {
+      "namespace": "feature",
+      "identifier": "l2cp-control",
+      "sid": 1802723
+    },
+    {
+      "namespace": "feature",
+      "identifier": "lacp",
+      "sid": 1802724
+    },
+    {
+      "namespace": "feature",
+      "identifier": "lag-interface",
+      "sid": 1802725
+    },
+    {
+      "namespace": "feature",
+      "identifier": "lan-tag",
+      "sid": 1802726
+    },
+    {
+      "namespace": "feature",
+      "identifier": "mac-addr-limit",
+      "sid": 1802727
+    },
+    {
+      "namespace": "feature",
+      "identifier": "mac-loop-prevention",
+      "sid": 1802728
+    },
+    {
+      "namespace": "feature",
+      "identifier": "micro-bfd",
+      "sid": 1802729
+    },
+    {
+      "namespace": "feature",
+      "identifier": "oam-3ah",
+      "sid": 1802730
+    },
+    {
+      "namespace": "feature",
+      "identifier": "output-bw",
+      "sid": 1802731
+    },
+    {
+      "namespace": "feature",
+      "identifier": "qinany",
+      "sid": 1802732
+    },
+    {
+      "namespace": "feature",
+      "identifier": "qinq",
+      "sid": 1802733
+    },
+    {
+      "namespace": "feature",
+      "identifier": "qos",
+      "sid": 1802734
+    },
+    {
+      "namespace": "feature",
+      "identifier": "qos-custom",
+      "sid": 1802735
+    },
+    {
+      "namespace": "feature",
+      "identifier": "requested-type",
+      "sid": 1802736
+    },
+    {
+      "namespace": "feature",
+      "identifier": "signaling-options",
+      "sid": 1802737
+    },
+    {
+      "namespace": "feature",
+      "identifier": "site-diversity",
+      "sid": 1802738
+    },
+    {
+      "namespace": "feature",
+      "identifier": "target-sites",
+      "sid": 1802739
+    },
+    {
+      "namespace": "feature",
+      "identifier": "uni-list",
+      "sid": 1802740
+    },
+    {
+      "namespace": "feature",
+      "identifier": "vlan",
+      "sid": 1802741
+    },
+    {
+      "namespace": "feature",
+      "identifier": "vxlan",
+      "sid": 1802742
+    },
+    {
+      "namespace": "feature",
+      "identifier": "y-1731",
+      "sid": 1802743
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc",
+      "sid": 1802744
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites",
+      "sid": 1802745
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site",
+      "sid": 1802746
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/access-control-list",
+      "sid": 1802747
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/access-control-list/mac",
+      "sid": 1802748
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/access-control-list/mac/mac-address",
+      "sid": 1802749
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/actual-site-start",
+      "sid": 1802750
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/actual-site-stop",
+      "sid": 1802751
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast",
+      "sid": 1802752
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/bum-overall-rate",
+      "sid": 1802753
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/bum-rate-per-type",
+      "sid": 1802754
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/bum-rate-per-type/rate",
+      "sid": 1802755
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/bum-rate-per-type/type",
+      "sid": 1802756
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping",
+      "sid": 1802757
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/id",
+      "sid": 1802758
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/mac-gp-address",
+      "sid": 1802759
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/port-lag-number",
+      "sid": 1802760
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/vlan-id",
+      "sid": 1802761
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/broadcast-unknown-unicast-multicast/multicast-site-type",
+      "sid": 1802762
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/bundling-type",
+      "sid": 1802763
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/default-ce-vlan-id",
+      "sid": 1802764
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices",
+      "sid": 1802765
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device",
+      "sid": 1802766
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device/device-id",
+      "sid": 1802767
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device/location",
+      "sid": 1802768
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device/management",
+      "sid": 1802769
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device/management/address",
+      "sid": 1802770
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/devices/device/management/transport",
+      "sid": 1802771
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations",
+      "sid": 1802772
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location",
+      "sid": 1802773
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/address",
+      "sid": 1802774
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/city",
+      "sid": 1802775
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/country-code",
+      "sid": 1802776
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/location-id",
+      "sid": 1802777
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/postal-code",
+      "sid": 1802778
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/locations/location/state",
+      "sid": 1802779
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/mac-loop-prevention",
+      "sid": 1802780
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/mac-loop-prevention/frequency",
+      "sid": 1802781
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/mac-loop-prevention/protection-type",
+      "sid": 1802782
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/mac-loop-prevention/retry-timer",
+      "sid": 1802783
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/management",
+      "sid": 1802784
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/management/type",
+      "sid": 1802785
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service",
+      "sid": 1802786
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/carrierscarrier",
+      "sid": 1802787
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/carrierscarrier/signaling-type",
+      "sid": 1802788
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos",
+      "sid": 1802789
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy",
+      "sid": 1802790
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule",
+      "sid": 1802791
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/id",
+      "sid": 1802792
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-application",
+      "sid": 1802793
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow",
+      "sid": 1802794
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/any",
+      "sid": 1802795
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/color-type",
+      "sid": 1802796
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/dot1q",
+      "sid": 1802797
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/dscp",
+      "sid": 1802798
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/dst-mac",
+      "sid": 1802799
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/pcp",
+      "sid": 1802800
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/src-mac",
+      "sid": 1802801
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/target-sites",
+      "sid": 1802802
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/match-flow/vpn-id",
+      "sid": 1802803
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-classification-policy/rule/target-class-id",
+      "sid": 1802804
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile",
+      "sid": 1802805
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes",
+      "sid": 1802806
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class",
+      "sid": 1802807
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/bandwidth",
+      "sid": 1802808
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/bandwidth/end-to-end",
+      "sid": 1802809
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/bandwidth/guaranteed-bw-percent",
+      "sid": 1802810
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/byte-offset",
+      "sid": 1802811
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/class-id",
+      "sid": 1802812
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/direction",
+      "sid": 1802813
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-delay",
+      "sid": 1802814
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-delay/delay-bound",
+      "sid": 1802815
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-delay/use-lowest-latency",
+      "sid": 1802816
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-jitter",
+      "sid": 1802817
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-jitter/delay-bound",
+      "sid": 1802818
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-jitter/use-lowest-jitter",
+      "sid": 1802819
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-loss",
+      "sid": 1802820
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/frame-loss/rate",
+      "sid": 1802821
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/classes/class/policing",
+      "sid": 1802822
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/service/qos/qos-profile/profile",
+      "sid": 1802823
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-diversity",
+      "sid": 1802824
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-diversity/groups",
+      "sid": 1802825
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-diversity/groups/group",
+      "sid": 1802826
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-diversity/groups/group/group-id",
+      "sid": 1802827
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-id",
+      "sid": 1802828
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses",
+      "sid": 1802829
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access",
+      "sid": 1802830
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-control-list",
+      "sid": 1802831
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-control-list/mac",
+      "sid": 1802832
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-control-list/mac/mac-address",
+      "sid": 1802833
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity",
+      "sid": 1802834
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints",
+      "sid": 1802835
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint",
+      "sid": 1802836
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/constraint-type",
+      "sid": 1802837
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/target",
+      "sid": 1802838
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/target/all-other-accesses",
+      "sid": 1802839
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/target/all-other-groups",
+      "sid": 1802840
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/target/group",
+      "sid": 1802841
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/constraints/constraint/target/group/group-id",
+      "sid": 1802842
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/groups",
+      "sid": 1802843
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/groups/group",
+      "sid": 1802844
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/access-diversity/groups/group/group-id",
+      "sid": 1802845
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/availability",
+      "sid": 1802846
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/availability/access-priority",
+      "sid": 1802847
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/availability/all-active",
+      "sid": 1802848
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/availability/single-active",
+      "sid": 1802849
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer",
+      "sid": 1802850
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer/always-on",
+      "sid": 1802851
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer/bearer-reference",
+      "sid": 1802852
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer/requested-type",
+      "sid": 1802853
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer/requested-type/strict",
+      "sid": 1802854
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/bearer/requested-type/type",
+      "sid": 1802855
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast",
+      "sid": 1802856
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/bum-overall-rate",
+      "sid": 1802857
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/bum-rate-per-type",
+      "sid": 1802858
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/bum-rate-per-type/rate",
+      "sid": 1802859
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/bum-rate-per-type/type",
+      "sid": 1802860
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping",
+      "sid": 1802861
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/id",
+      "sid": 1802862
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/mac-gp-address",
+      "sid": 1802863
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/port-lag-number",
+      "sid": 1802864
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-gp-address-mapping/vlan-id",
+      "sid": 1802865
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/broadcast-unknown-unicast-multicast/multicast-site-type",
+      "sid": 1802866
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection",
+      "sid": 1802867
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/cvlan-id-to-svc-map",
+      "sid": 1802868
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/cvlan-id-to-svc-map/cvlan-id",
+      "sid": 1802869
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/cvlan-id-to-svc-map/cvlan-id/vid",
+      "sid": 1802870
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/cvlan-id-to-svc-map/svc-id",
+      "sid": 1802871
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/encapsulation-type",
+      "sid": 1802872
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/eth-inf-type",
+      "sid": 1802873
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control",
+      "sid": 1802874
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/e-lmi",
+      "sid": 1802875
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/esmc",
+      "sid": 1802876
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/garp-mrp",
+      "sid": 1802877
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/l2cp-802.1x",
+      "sid": 1802878
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/lacp-lamp",
+      "sid": 1802879
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/link-oam",
+      "sid": 1802880
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/lldp",
+      "sid": 1802881
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/pause",
+      "sid": 1802882
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/ptp-peer-delay",
+      "sid": 1802883
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/l2cp-control/stp-rstp-mstp",
+      "sid": 1802884
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces",
+      "sid": 1802885
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface",
+      "sid": 1802886
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/index",
+      "sid": 1802887
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp",
+      "sid": 1802888
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/bfd",
+      "sid": 1802889
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/bfd/enabled",
+      "sid": 1802890
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/bfd/fixed-value",
+      "sid": 1802891
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/bfd/profile-name",
+      "sid": 1802892
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/enabled",
+      "sid": 1802893
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/flow-control",
+      "sid": 1802894
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/lldp",
+      "sid": 1802895
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links",
+      "sid": 1802896
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link",
+      "sid": 1802897
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/link-mtu",
+      "sid": 1802898
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/mode",
+      "sid": 1802899
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/name",
+      "sid": 1802900
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/oam-802.3ah-link",
+      "sid": 1802901
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/oam-802.3ah-link/enabled",
+      "sid": 1802902
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/member-links/member-link/speed",
+      "sid": 1802903
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/micro-bfd",
+      "sid": 1802904
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/micro-bfd/enabled",
+      "sid": 1802905
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/micro-bfd/hold-timer",
+      "sid": 1802906
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/micro-bfd/interval",
+      "sid": 1802907
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/mini-link-num",
+      "sid": 1802908
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/mode",
+      "sid": 1802909
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/speed",
+      "sid": 1802910
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/lag-interfaces/lag-interface/lacp/system-priority",
+      "sid": 1802911
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam",
+      "sid": 1802912
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag",
+      "sid": 1802913
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/alarm-priority-defect",
+      "sid": 1802914
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/ccm-holdtime",
+      "sid": 1802915
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/ccm-interval",
+      "sid": 1802916
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/ccm-p-bits-pri",
+      "sid": 1802917
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/cos-for-cfm-pdus",
+      "sid": 1802918
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/maid",
+      "sid": 1802919
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/mep-id",
+      "sid": 1802920
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/mep-level",
+      "sid": 1802921
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/mep-up-down",
+      "sid": 1802922
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/cfm-8021-ag/remote-mep-id",
+      "sid": 1802923
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/md-level",
+      "sid": 1802924
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/md-name",
+      "sid": 1802925
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731",
+      "sid": 1802926
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/cos",
+      "sid": 1802927
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/delay-measurement",
+      "sid": 1802928
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/delay-measurement/enable-dm",
+      "sid": 1802929
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/delay-measurement/two-way",
+      "sid": 1802930
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/frame-size",
+      "sid": 1802931
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/loss-measurement",
+      "sid": 1802932
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/maid",
+      "sid": 1802933
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/measurement-interval",
+      "sid": 1802934
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/mep-id",
+      "sid": 1802935
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/message-period",
+      "sid": 1802936
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/remote-mep-id",
+      "sid": 1802937
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/session-type",
+      "sid": 1802938
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/synthetic-loss-measurement",
+      "sid": 1802939
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/oam/y-1731/type",
+      "sid": 1802940
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface",
+      "sid": 1802941
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/dot1q-vlan-tagged",
+      "sid": 1802942
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/dot1q-vlan-tagged/cvlan-id",
+      "sid": 1802943
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/dot1q-vlan-tagged/tg-type",
+      "sid": 1802944
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/priority-tagged",
+      "sid": 1802945
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/priority-tagged/tag-type",
+      "sid": 1802946
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinany",
+      "sid": 1802947
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinany/svlan-id",
+      "sid": 1802948
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinany/tag-type",
+      "sid": 1802949
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinq",
+      "sid": 1802950
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinq/cvlan-id",
+      "sid": 1802951
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinq/svlan-id",
+      "sid": 1802952
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/qinq/tag-type",
+      "sid": 1802953
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/type",
+      "sid": 1802954
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/vxlan",
+      "sid": 1802955
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/vxlan/peer-list",
+      "sid": 1802956
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/vxlan/peer-list/peer-ip",
+      "sid": 1802957
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/vxlan/peer-mode",
+      "sid": 1802958
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/tagged-interface/vxlan/vni-id",
+      "sid": 1802959
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface",
+      "sid": 1802960
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/lldp",
+      "sid": 1802961
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/mode",
+      "sid": 1802962
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/oam-802.3ah-link",
+      "sid": 1802963
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/oam-802.3ah-link/enabled",
+      "sid": 1802964
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/phy-mtu",
+      "sid": 1802965
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/speed",
+      "sid": 1802966
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/connection/untagged-interface/uni-loop-prevention",
+      "sid": 1802967
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/device-reference",
+      "sid": 1802968
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/location-reference",
+      "sid": 1802969
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-addr-limit",
+      "sid": 1802970
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-addr-limit/action",
+      "sid": 1802971
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-addr-limit/limit-number",
+      "sid": 1802972
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-addr-limit/time-interval",
+      "sid": 1802973
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-loop-prevention",
+      "sid": 1802974
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-loop-prevention/frequency",
+      "sid": 1802975
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-loop-prevention/protection-type",
+      "sid": 1802976
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/mac-loop-prevention/retry-timer",
+      "sid": 1802977
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/network-access-id",
+      "sid": 1802978
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/remote-carrier-name",
+      "sid": 1802979
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service",
+      "sid": 1802980
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/carrierscarrier",
+      "sid": 1802981
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/carrierscarrier/signaling-type",
+      "sid": 1802982
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos",
+      "sid": 1802983
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy",
+      "sid": 1802984
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule",
+      "sid": 1802985
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/id",
+      "sid": 1802986
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-application",
+      "sid": 1802987
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow",
+      "sid": 1802988
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/any",
+      "sid": 1802989
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/color-type",
+      "sid": 1802990
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/dot1q",
+      "sid": 1802991
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/dscp",
+      "sid": 1802992
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/dst-mac",
+      "sid": 1802993
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/pcp",
+      "sid": 1802994
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/src-mac",
+      "sid": 1802995
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/target-sites",
+      "sid": 1802996
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/match-flow/vpn-id",
+      "sid": 1802997
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-classification-policy/rule/target-class-id",
+      "sid": 1802998
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile",
+      "sid": 1802999
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes",
+      "sid": 1803000
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class",
+      "sid": 1803001
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/bandwidth",
+      "sid": 1803002
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/bandwidth/end-to-end",
+      "sid": 1803003
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/bandwidth/guaranteed-bw-percent",
+      "sid": 1803004
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/byte-offset",
+      "sid": 1803005
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/class-id",
+      "sid": 1803006
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/direction",
+      "sid": 1803007
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-delay",
+      "sid": 1803008
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-delay/delay-bound",
+      "sid": 1803009
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-delay/use-lowest-latency",
+      "sid": 1803010
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-jitter",
+      "sid": 1803011
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-jitter/delay-bound",
+      "sid": 1803012
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-jitter/use-lowest-jitter",
+      "sid": 1803013
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-loss",
+      "sid": 1803014
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/frame-loss/rate",
+      "sid": 1803015
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/classes/class/policing",
+      "sid": 1803016
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/qos/qos-profile/profile",
+      "sid": 1803017
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth",
+      "sid": 1803018
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth",
+      "sid": 1803019
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/cbs",
+      "sid": 1803020
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/cir",
+      "sid": 1803021
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/cos-id",
+      "sid": 1803022
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/direction",
+      "sid": 1803023
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/ebs",
+      "sid": 1803024
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/eir",
+      "sid": 1803025
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/pbs",
+      "sid": 1803026
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/pir",
+      "sid": 1803027
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/type",
+      "sid": 1803028
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-bandwidth/bandwidth/vpn-id",
+      "sid": 1803029
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/service/svc-mtu",
+      "sid": 1803030
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/type",
+      "sid": 1803031
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/vpn-attachment",
+      "sid": 1803032
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/vpn-attachment/site-role",
+      "sid": 1803033
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/vpn-attachment/vpn-id",
+      "sid": 1803034
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-network-accesses/site-network-access/vpn-attachment/vpn-policy-id",
+      "sid": 1803035
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/site-vpn-flavor",
+      "sid": 1803036
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies",
+      "sid": 1803037
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy",
+      "sid": 1803038
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries",
+      "sid": 1803039
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/filters",
+      "sid": 1803040
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/filters/filter",
+      "sid": 1803041
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/filters/filter/lan-tag",
+      "sid": 1803042
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/filters/filter/type",
+      "sid": 1803043
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/id",
+      "sid": 1803044
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/vpn",
+      "sid": 1803045
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/vpn/site-role",
+      "sid": 1803046
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/entries/vpn/vpn-id",
+      "sid": 1803047
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/sites/site/vpn-policies/vpn-policy/vpn-policy-id",
+      "sid": 1803048
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles",
+      "sid": 1803049
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles/valid-provider-identifiers",
+      "sid": 1803050
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles/valid-provider-identifiers/bfd-profile-identifier",
+      "sid": 1803051
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles/valid-provider-identifiers/cloud-identifier",
+      "sid": 1803052
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles/valid-provider-identifiers/qos-profile-identifier",
+      "sid": 1803053
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-profiles/valid-provider-identifiers/remote-carrier-identifier",
+      "sid": 1803054
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services",
+      "sid": 1803055
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service",
+      "sid": 1803056
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/carrierscarrier",
+      "sid": 1803057
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/ce-vlan-cos-preservation",
+      "sid": 1803058
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/ce-vlan-preservation",
+      "sid": 1803059
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses",
+      "sid": 1803060
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses/cloud-access",
+      "sid": 1803061
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses/cloud-access/cloud-identifier",
+      "sid": 1803062
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses/cloud-access/deny-site",
+      "sid": 1803063
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses/cloud-access/permit-any",
+      "sid": 1803064
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/cloud-accesses/cloud-access/permit-site",
+      "sid": 1803065
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/customer-name",
+      "sid": 1803066
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/extranet-vpns",
+      "sid": 1803067
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/extranet-vpns/extranet-vpn",
+      "sid": 1803068
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/extranet-vpns/extranet-vpn/local-sites-role",
+      "sid": 1803069
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/extranet-vpns/extranet-vpn/vpn-id",
+      "sid": 1803070
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery",
+      "sid": 1803071
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/bum-deliveries",
+      "sid": 1803072
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/bum-deliveries/bum-delivery",
+      "sid": 1803073
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/bum-deliveries/bum-delivery/delivery-mode",
+      "sid": 1803074
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/bum-deliveries/bum-delivery/frame-type",
+      "sid": 1803075
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/customer-tree-flavors",
+      "sid": 1803076
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/customer-tree-flavors/tree-flavor",
+      "sid": 1803077
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/frame-delivery/multicast-gp-port-mapping",
+      "sid": 1803078
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/svc-topo",
+      "sid": 1803079
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/vpn-id",
+      "sid": 1803080
+    },
+    {
+      "namespace": "data",
+      "identifier": "/ietf-l2vpn-svc:l2vpn-svc/vpn-services/vpn-service/vpn-svc-type",
+      "sid": 1803081
+    }
+  ]
+}
