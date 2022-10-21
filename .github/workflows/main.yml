@@ -13,5 +13,7 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
+      - name: Check the sid syntaxqzd
+        run: find
       - name: Check the sid syntax
         run: make -f /opt/acklio/Makefile syntaxcheck
