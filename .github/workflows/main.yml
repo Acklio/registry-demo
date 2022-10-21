@@ -39,7 +39,7 @@ jobs:
       - name: Setup git
         run: |
           git config --global user.email "< >"
-          git config --global user.name "Registry automation"
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
           mkdir ~/.ssh
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - name: Check out the repo
