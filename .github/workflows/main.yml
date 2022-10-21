@@ -1,0 +1,16 @@
+name: Create and publish a Docker image
+
+on: [push]
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  docker-build:
+    runs-on: ghcr.io/repo-utils:latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - name: Check the sid syntax
+        run: make -f /opt/acklio/Makefile syntaxcheck
