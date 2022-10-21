@@ -1,0 +1,22 @@
+{
+  "assignment-ranges": [
+    {
+      "entry-point": 1803703,
+      "size": 297
+    }
+  ],
+  "module-name": "local",
+  "module-revision": "2018-10-09",
+  "items": [
+    {
+      "namespace": "module",
+      "identifier": "local",
+      "sid": 1803703
+    },
+    {
+      "namespace": "feature",
+      "identifier": "localtestfeature",
+      "sid": 1803704
+    }
+  ]
+}
