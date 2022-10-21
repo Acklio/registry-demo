@@ -38,7 +38,6 @@ jobs:
     steps:
       - name: Setup git
         run: |
-          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts;
           git config --global user.email "< >"
           git config --global user.name "Registry automation"
       - name: Check out the repo
