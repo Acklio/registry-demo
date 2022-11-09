@@ -9,12 +9,9 @@ on:
 jobs:
   sid-testing:
     name: sid-testing
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.4
     container:
       image: ghcr.io/acklio/registry-utils:v0
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
@@ -28,7 +25,7 @@ jobs:
         run: make -f /opt/acklio/Makefile changed_org_usage
   sid-generation:
     name: sid-generation
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.4
     needs: sid-testing
     container:
       image: ghcr.io/acklio/repo-utils:v0
