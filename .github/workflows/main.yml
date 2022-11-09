@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-20.04
     needs: sid-testing
     container:
-      image: ghcr.io/acklio/repo-utils:v0
+      image: ghcr.io/acklio/registry-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
