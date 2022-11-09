@@ -2,15 +2,15 @@ name: Validate yangs and generate sids
 
 on:
   pull_request:
-    # Sequence of patterns matched against refs/heads
     branches:
       - main
 
 jobs:
   sid-testing:
-    runs-on: ubuntu-latest
+    name: sid-testing
+    runs-on: ubuntu-20.04
     container:
-      image: ghcr.io/Acklio/registry-utils:v0
+      image: ghcr.io/acklio/registry-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
@@ -23,10 +23,11 @@ jobs:
       - name: Check the sid budget
         run: make -f /opt/acklio/Makefile changed_org_usage
   sid-generation:
-    runs-on: ubuntu-latest
+    name: sid-generation
+    runs-on: ubuntu-20.04
     needs: sid-testing
     container:
-      image: ghcr.io/Acklio/repo-utils:v0
+      image: ghcr.io/acklio/registry-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
