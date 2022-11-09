@@ -26,17 +26,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: sid-testing
     container:
-      image: ghcr.io/tk-acklio/repo-utils:main
-      credentials:
-        username: tk-acklio
-        password: "${{ secrets.PRIV_DOCKER_TOKEN }}"
+      image: ghcr.io/Acklio/repo-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
       - name: Setup git
         run: |
           git config --global user.email "< >"
-          git config --global user.name "tk-acklio"
+          git config --global user.name "acklio-registry"
           mkdir ~/.ssh
           ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
       - name: Check out the repo
