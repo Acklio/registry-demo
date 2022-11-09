@@ -11,7 +11,7 @@ jobs:
     name: sid-testing
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/Acklio/registry-utils:v0
+      image: ghcr.io/acklio/registry-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: sid-testing
     container:
-      image: ghcr.io/Acklio/repo-utils:v0
+      image: ghcr.io/acklio/repo-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
