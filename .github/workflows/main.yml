@@ -10,10 +10,7 @@ jobs:
   sid-testing:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/tk-acklio/repo-utils:main
-      credentials:
-        username: tk-acklio
-        password: "${{ secrets.PRIV_DOCKER_TOKEN }}"
+      image: ghcr.io/Acklio/registry-utils:v0
     env:
       TARGET_BRANCH_NAME: "main"
     steps:
