@@ -1,0 +1,122 @@
+{
+  "assignment-ranges": [
+    {
+      "entry-point": 1808000,
+      "size": 2000
+    }
+  ],
+  "module-name": "toaster",
+  "module-revision": "2009-11-20",
+  "items": [
+    {
+      "namespace": "module",
+      "identifier": "toaster",
+      "sid": 1808000
+    },
+    {
+      "namespace": "identity",
+      "identifier": "frozen-bagel",
+      "sid": 1808001
+    },
+    {
+      "namespace": "identity",
+      "identifier": "frozen-waffle",
+      "sid": 1808002
+    },
+    {
+      "namespace": "identity",
+      "identifier": "hash-brown",
+      "sid": 1808003
+    },
+    {
+      "namespace": "identity",
+      "identifier": "toast-type",
+      "sid": 1808004
+    },
+    {
+      "namespace": "identity",
+      "identifier": "wheat-bread",
+      "sid": 1808005
+    },
+    {
+      "namespace": "identity",
+      "identifier": "white-bread",
+      "sid": 1808006
+    },
+    {
+      "namespace": "identity",
+      "identifier": "wonder-bread",
+      "sid": 1808007
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:cancel-toast",
+      "sid": 1808008
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:make-toast",
+      "sid": 1808009
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:make-toast/input/toasterDoneness",
+      "sid": 1808010
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:make-toast/input/toasterToastType",
+      "sid": 1808011
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:restock-toaster",
+      "sid": 1808012
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:restock-toaster/input/amountOfBreadToStock",
+      "sid": 1808013
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toaster",
+      "sid": 1808014
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toaster/darknessFactor",
+      "sid": 1808015
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toaster/toasterManufacturer",
+      "sid": 1808016
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toaster/toasterModelNumber",
+      "sid": 1808017
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toaster/toasterStatus",
+      "sid": 1808018
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toasterOutOfBread",
+      "sid": 1808019
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toasterRestocked",
+      "sid": 1808020
+    },
+    {
+      "namespace": "data",
+      "identifier": "/toaster:toasterRestocked/amountOfBread",
+      "sid": 1808021
+    }
+  ]
+}
