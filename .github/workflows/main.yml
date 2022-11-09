@@ -8,6 +8,7 @@ on:
 
 jobs:
   sid-testing:
+    name: sid-testing
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/Acklio/registry-utils:v0
@@ -23,6 +24,7 @@ jobs:
       - name: Check the sid budget
         run: make -f /opt/acklio/Makefile changed_org_usage
   sid-generation:
+    name: sid-generation
     runs-on: ubuntu-latest
     needs: sid-testing
     container:
